@@ -1,6 +1,6 @@
 /* navigation bar */
-body{
-    background-color:azure;
+body {
+    background-color: azure;
 }
 
 #navbar {
@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: 50px;
     position: fixed;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     z-index: 999;
     border-bottom: 0.5px solid lightgrey;
     padding: 5px;
@@ -91,7 +91,8 @@ body{
 .sidebar {
     background-color: white;
     /* flex: 0.2; */
-    width: 200px;;
+    width: 200px;
+    ;
     text-align: center;
     position: sticky;
     border-radius: 10px;
@@ -108,9 +109,10 @@ body{
     margin-bottom: -40px;
 }
 
-.sidebar_top img{
+.sidebar_top img {
     width: 70px;
 }
+
 .sidebar_top {
     display: flex;
     flex-direction: column;
@@ -122,13 +124,15 @@ body{
     background-color: white;
     padding-bottom: 20px;
 }
-.sidebar_top .name{
+
+.sidebar_top .name {
     padding-top: 5px;
     padding-bottom: 10px;
 
 }
-.sidebar_stat{
-   
+
+.sidebar_stat {
+
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -137,40 +141,44 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.name{
-    font-size: 17px;;
+
+.name {
+    font-size: 17px;
+    ;
 }
-.post{
+
+.post {
     color: grey;
 }
 
-.sidebar_stat{
-margin-top:10px;   
-display: flex;
-flex-direction: column;
+.sidebar_stat {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.sidebar_stats p{
+.sidebar_stats p {
     color: grey;
     font-size: 15px;
     font-weight: 600;
 }
-.sidebar_recentitem{
+
+.sidebar_recentitem {
     display: flex;
     padding: 10px;
- 
+
 }
 
-.sidebar_statnumber{
+.sidebar_statnumber {
     color: blue;
 }
 
 
-.sidebar_bottom{
+.sidebar_bottom {
     padding: 10px;
-    border:1px solid lightgrey;
+    border: 1px solid lightgrey;
     text-align: left;
-    border-radius:10px;
+    border-radius: 10px;
 
 }
 
@@ -178,154 +186,166 @@ flex-direction: column;
 
 /* middle post section */
 
-.middle_postsection{
+.middle_postsection {
 
     background-color: white;
     display: flex;
-    padding:10px 15px;
+    padding: 10px 15px;
     flex-direction: column;
-    margin-top:70px;
+    margin-top: 70px;
     margin-left: 20px;
     height: 130px;
     width: 600px;
-    border:1px solid grey;
+    border: 1px solid grey;
     border-radius: 10px;
 
 }
 
 
 
-.post_input input{
+.post_input input {
     position: relative;
-    
-    border:0.5px solid grey;
+
+    border: 0.5px solid grey;
     cursor: pointer;
     width: 100%;
     padding: 15px;
-    top:10px;
+    top: 10px;
     border-radius: 20px;
 }
 
-.icons{
-    
+.icons {
+
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
     display: flex;
 }
-.icons span{
+
+.icons span {
     color: grey;
     cursor: pointer;
 }
 
-.post_logos{
-    padding: 10px;
+.post_logos {
+    padding: 5px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+
 
 }
 
+.post_logos img {
+    width: 25px;
+}
 
 
-.main-posts{
-    border:1px solid grey;
-    margin-top:10px;
+.main-posts {
+    border: 1px solid grey;
+    margin-top: 20px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
 }
 
-.post_header{
+.post_header {
     display: flex;
 
 }
-.post_header .flipkart_icon{
+
+.post_header .flipkart_icon {
     width: 50px;
     height: 50px;
 }
 
-.post_header .amazon_icon{
+.post_header .amazon_icon {
     width: 50px;
 }
 
-.post_body img{
+.post_body img {
     width: 530px;
     border-radius: 10px;
 }
-.post_info span{
+
+.post_info span {
     color: grey;
     font-size: 15px;
     padding: 7px;
 }
-.post_info p{
+
+.post_info p {
     font-size: 15px;
     padding: 7px;
     cursor: pointer;
 }
 
 
-.feedinput_options{
+.feedinput_options {
     display: flex;
-    justify-content: space-between;
-    border-top:1px solid grey;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
 }
 
-.input_op{
+.input_op {
     text-align: center;
-    padding: 10px;
+    padding: 10px 40px;
     border-radius: 10px;
 }
 
-.input_op img{
-    width: 20px;
+.input_op img {
+    width: 15px;
 }
+
 /* middle posts css */
 
 
 
 /* right widjets starts here */
-.top_right_widjets{
+.top_right_widjets {
     background-color: white;
-margin-top: 70px;
-border:1px solid gray;
-width: 300px;
-height: 250px;
-margin-left: 20px;
-border-radius: 10px;
+    margin-top: 70px;
+    border: 1px solid gray;
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
 
 
 }
 
-.linkdin_news h4{
+.linkdin_news h4 {
     text-align: center;
-    border-bottom:1px solid gray;
+    border-bottom: 1px solid gray;
     padding: 10px;
 
 }
 
-.top_right_widjets .lists_ares{
+.top_right_widjets .lists_ares {
     margin-left: 20px;
     font-size: 15px;
     padding: 15px;
     background-color: white;
 }
 
-.top_right_widjets .lists_ares ul li{
-    margin-top:15px;
+.top_right_widjets .lists_ares ul li {
+    margin-top: 15px;
 }
+
 /* right widjets ends here */
 
 
-.right_bottom{
+.right_bottom {
     height: 250px;
     width: 300px;
     border-radius: 10px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 15px;
     background-color: white;
 }
 
-.who_hiring_linkdin img{
+.who_hiring_linkdin img {
     width: 95%;
     object-fit: cover;
     align-items: center;
