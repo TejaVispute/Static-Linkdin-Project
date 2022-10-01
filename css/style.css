@@ -1,6 +1,6 @@
 /* navigation bar */
 body {
-    background-color: azure;
+    background-color: #F3F2EF;
 }
 
 #navbar {
@@ -90,15 +90,16 @@ body {
 
 .sidebar {
     background-color: white;
-    /* flex: 0.2; */
     width: 200px;
-    ;
     text-align: center;
     position: sticky;
     border-radius: 10px;
     margin-top: 70px;
-    height: fit-content;
 
+}
+
+#my_img_info{
+    border-radius: 50%;
 }
 
 .sidebar_top .background-img {
@@ -194,24 +195,29 @@ body {
     flex-direction: column;
     margin-top: 70px;
     margin-left: 20px;
-    height: 130px;
+    height: 110px;
     width: 600px;
     border: 1px solid grey;
     border-radius: 10px;
 
 }
 
-
+.post_input{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .post_input input {
-    position: relative;
-
     border: 0.5px solid grey;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     padding: 15px;
-    top: 10px;
     border-radius: 20px;
+}
+.post_input img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
 }
 
 .icons {
@@ -219,7 +225,6 @@ body {
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
     display: flex;
 }
 
@@ -239,13 +244,14 @@ body {
 
 .post_logos img {
     width: 25px;
+    margin-right: 7px;
 }
 
 
 .main-posts {
     border: 1px solid grey;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
     background-color: white;
     border-radius: 10px;
 }
@@ -289,13 +295,16 @@ body {
 }
 
 .input_op {
+    display: flex;
     text-align: center;
-    padding: 10px 40px;
+    padding: 15px 20px;
     border-radius: 10px;
 }
 
 .input_op img {
-    width: 15px;
+    width: 20px;
+    margin-right: 10px;
+
 }
 
 /* middle posts css */
